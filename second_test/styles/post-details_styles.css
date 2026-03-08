@@ -1,0 +1,50 @@
+#post-details{
+    border: 1px solid lightgray;
+    background-color: #f6f6f6;
+    padding: 10px;
+}
+.containers{
+    border: 1px solid lightgray;
+    padding: 6px;
+    margin-bottom: 8px;
+}
+#back-button{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+#text-info-post{
+    font-size: 18px;
+}
+
+#comments-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+.comment-container{
+    border: 1px solid #000000;
+    padding: 0 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    opacity: 0;
+    transform: translateY(-150px);
+    animation: appearance-comments 1s ease forwards;
+
+}
+@keyframes appearance-comments {
+    from {
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(0);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

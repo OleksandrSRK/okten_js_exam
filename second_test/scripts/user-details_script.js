@@ -11,7 +11,7 @@ const userPostsDiv = document.getElementById('user-posts');
 
 document.getElementById('back-button').onclick = () => {
     history.back();
-};
+}
 
 fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
     .then(res => res.json())

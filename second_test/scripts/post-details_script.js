@@ -17,7 +17,7 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
                                   <b>User Id:</b> ${postObj.userId}`;
     });
 
-//Виведення коментарів
+// Виведення коментарів
 fetch(`https://jsonplaceholder.typicode.com/posts/${postId}/comments`)
     .then(res => res.json())
     .then(postArr => {

@@ -1,3 +1,5 @@
+/********** info-block **********/
+
 #post-details{
     border: 1px solid lightgray;
     background-color: #f6f6f6;
@@ -16,6 +18,8 @@
 #text-info-post{
     font-size: 18px;
 }
+
+/********** comments-block **********/
 
 #comments-list{
     display: grid;

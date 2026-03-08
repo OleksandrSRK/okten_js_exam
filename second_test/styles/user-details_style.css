@@ -1,3 +1,5 @@
+/********** info-block **********/
+
 #user-details{
     border: 1px solid lightgray;
     background-color: #f6f6f6;
@@ -30,6 +32,9 @@ h3{
     color: #282828;
     margin: 4px;
 }
+
+/********** posts-block **********/
+
 #user-posts{
     display: grid;
     grid-template-columns: repeat(5, 1fr);

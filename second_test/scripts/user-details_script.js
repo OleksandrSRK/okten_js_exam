@@ -39,7 +39,6 @@ fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
             fetch(`https://jsonplaceholder.typicode.com/users/${userId}/posts`)
                 .then(res => res.json())
                 .then(postsArr => {
-                    console.log(postsArr);
                     userPostsDiv.innerHTML = '';
 
                     // Цикл виведення постів з затримкою (для анімації)
